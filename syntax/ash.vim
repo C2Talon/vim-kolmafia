@@ -38,80 +38,82 @@ syn keyword ashFunction florist_available flush_monster_manuel_cache form_field 
 syn keyword ashFunction friars_available fuel_cost fullness_limit gameday_to_int gameday_to_string contained
 syn keyword ashFunction gametime_to_int get_all_properties get_auto_attack get_campground get_ccs_action contained
 syn keyword ashFunction get_chateau get_clan_id get_clan_lounge get_clan_name get_clan_rumpus contained
-syn keyword ashFunction get_closet get_counters get_custom_outfits get_dwelling get_florist_plants contained
-syn keyword ashFunction get_free_pulls get_fuel get_goals get_ignore_zone_warnings get_ingredients contained
-syn keyword ashFunction get_inventory get_location_monsters get_monster_mapping get_monsters get_moods contained
-syn keyword ashFunction get_outfits get_path get_path_full get_path_variables get_player_id contained
-syn keyword ashFunction get_player_name get_power get_property get_related get_revision contained
-syn keyword ashFunction get_shop get_shop_log get_stack_trace get_stash get_storage contained
-syn keyword ashFunction get_version get_workshed gnomads_available goal_exists group contained
-syn keyword ashFunction group_count group_names group_string guild_available guild_store_available contained
-syn keyword ashFunction handling_choice have_bartender have_chef have_display have_effect contained
-syn keyword ashFunction have_equipped have_familiar have_mushroom_plot have_outfit have_servant contained
-syn keyword ashFunction have_shop have_skill hedge_maze hermit hidden_temple_unlocked contained
-syn keyword ashFunction hippy_stone_broken hippy_store_available historical_age historical_price holiday contained
-syn keyword ashFunction hp_cost image_to_monster in_bad_moon in_casual in_hardcore contained
-syn keyword ashFunction in_moxie_sign in_multi_fight in_muscle_sign in_mysticality_sign inaccessible_reason contained
-syn keyword ashFunction index_of inebriety_limit initiative_modifier insert is_accessible contained
-syn keyword ashFunction is_banished is_coinmaster_item is_dark_mode is_discardable is_displayable contained
-syn keyword ashFunction is_familiar_equipment_locked is_giftable is_goal is_integer is_npc_item contained
-syn keyword ashFunction is_online is_tradeable is_trendy is_unrestricted is_wearing_outfit contained
-syn keyword ashFunction item_amount item_drop_modifier item_drops item_drops_array item_pockets contained
-syn keyword ashFunction item_type joke_pockets jump_chance knoll_available last_choice contained
-syn keyword ashFunction last_decision last_index_of last_item_message last_monster last_skill_message contained
-syn keyword ashFunction leetify length lightning_cost limit_mode load_html contained
-syn keyword ashFunction lock_familiar_equipment log_n logprint make_url mall_price contained
-syn keyword ashFunction mall_prices mana_cost_modifier map_to_file max maximize contained
-syn keyword ashFunction meat_drop meat_drop_modifier meat_pockets min minstrel_instrument contained
-syn keyword ashFunction minstrel_level minstrel_quest modifier_eval monster_attack monster_defense contained
-syn keyword ashFunction monster_element monster_eval monster_factoids_available monster_hp monster_initiative contained
-syn keyword ashFunction monster_level_adjustment monster_manuel_text monster_phylum monster_pockets mood_execute contained
-syn keyword ashFunction mood_list moon_light moon_phase mp_cost my_absorbs contained
-syn keyword ashFunction my_adventures my_ascensions my_audience my_basestat my_bjorned_familiar contained
-syn keyword ashFunction my_buffedstat my_class my_closet_meat my_companion my_daycount contained
-syn keyword ashFunction my_discomomentum my_effective_familiar my_effects my_enthroned_familiar my_familiar contained
-syn keyword ashFunction my_fullness my_fury my_garden_type my_hash my_hp contained
-syn keyword ashFunction my_id my_inebriety my_level my_lightning my_location contained
-syn keyword ashFunction my_mask my_maxfury my_maxhp my_maxmp my_maxpp contained
-syn keyword ashFunction my_meat my_mp my_name my_path my_path_id contained
-syn keyword ashFunction my_poke_fam my_pp my_primestat my_rain my_robot_energy contained
-syn keyword ashFunction my_robot_scraps my_servant my_session_adv my_session_items my_session_meat contained
-syn keyword ashFunction my_session_results my_sign my_soulsauce my_spleen_use my_storage_meat contained
-syn keyword ashFunction my_thrall my_thunder my_turncount my_vykea_companion now_to_int contained
-syn keyword ashFunction now_to_string npc_price numberology_prize numeric_modifier outfit contained
-syn keyword ashFunction outfit_pieces outfit_tattoo overdrink path_id_to_name path_name_to_id contained
+syn keyword ashFunction get_closet get_counter get_counters get_custom_outfits get_dwelling contained
+syn keyword ashFunction get_florist_plants get_free_pulls get_fuel get_goals get_ignore_zone_warnings contained
+syn keyword ashFunction get_ingredients get_inventory get_location_monsters get_monster_mapping get_monsters contained
+syn keyword ashFunction get_moods get_outfits get_path get_path_full get_path_variables contained
+syn keyword ashFunction get_player_id get_player_name get_power get_property get_related contained
+syn keyword ashFunction get_revision get_shop get_shop_log get_stack_trace get_stash contained
+syn keyword ashFunction get_storage get_version get_workshed gnomads_available goal_exists contained
+syn keyword ashFunction group group_count group_names group_string guild_available contained
+syn keyword ashFunction guild_store_available handling_choice have_bartender have_chef have_display contained
+syn keyword ashFunction have_effect have_equipped have_familiar have_mushroom_plot have_outfit contained
+syn keyword ashFunction have_servant have_shop have_skill hedge_maze hermit contained
+syn keyword ashFunction hidden_temple_unlocked hippy_stone_broken hippy_store_available historical_age historical_price contained
+syn keyword ashFunction holiday hp_cost image_to_monster in_bad_moon in_casual contained
+syn keyword ashFunction in_hardcore in_moxie_sign in_multi_fight in_muscle_sign in_mysticality_sign contained
+syn keyword ashFunction inaccessible_reason index_of inebriety_limit initiative_modifier insert contained
+syn keyword ashFunction is_accessible is_banished is_coinmaster_item is_dark_mode is_discardable contained
+syn keyword ashFunction is_displayable is_familiar_equipment_locked is_giftable is_goal is_headless contained
+syn keyword ashFunction is_integer is_npc_item is_online is_tradeable is_trendy contained
+syn keyword ashFunction is_unrestricted is_wearing_outfit item_amount item_drop_modifier item_drops contained
+syn keyword ashFunction item_drops_array item_pockets item_type joke_pockets jump_chance contained
+syn keyword ashFunction knoll_available last_choice last_decision last_index_of last_item_message contained
+syn keyword ashFunction last_monster last_skill_message leetify length lightning_cost contained
+syn keyword ashFunction limit_mode load_html lock_familiar_equipment log_n logprint contained
+syn keyword ashFunction make_url mall_price mall_prices mana_cost_modifier map_to_file contained
+syn keyword ashFunction max maximize meat_drop meat_drop_modifier meat_pockets contained
+syn keyword ashFunction min minstrel_instrument minstrel_level minstrel_quest modifier_eval contained
+syn keyword ashFunction monster_attack monster_defense monster_element monster_eval monster_factoids_available contained
+syn keyword ashFunction monster_hp monster_initiative monster_level_adjustment monster_manuel_text monster_modifier contained
+syn keyword ashFunction monster_phylum monster_pockets mood_execute mood_list moon_light contained
+syn keyword ashFunction moon_phase mp_cost my_absorbs my_adventures my_ascensions contained
+syn keyword ashFunction my_audience my_basestat my_bjorned_familiar my_buffedstat my_class contained
+syn keyword ashFunction my_closet_meat my_companion my_daycount my_discomomentum my_effective_familiar contained
+syn keyword ashFunction my_effects my_enthroned_familiar my_familiar my_fullness my_fury contained
+syn keyword ashFunction my_garden_type my_hash my_hp my_id my_inebriety contained
+syn keyword ashFunction my_level my_lightning my_location my_mask my_maxfury contained
+syn keyword ashFunction my_maxhp my_maxmp my_maxpp my_meat my_mp contained
+syn keyword ashFunction my_name my_path my_path_id my_poke_fam my_pp contained
+syn keyword ashFunction my_primestat my_rain my_robot_energy my_robot_scraps my_servant contained
+syn keyword ashFunction my_session_adv my_session_items my_session_meat my_session_results my_sign contained
+syn keyword ashFunction my_soulsauce my_spleen_use my_storage_meat my_thrall my_thunder contained
+syn keyword ashFunction my_turncount my_vykea_companion my_wildfire_water now_to_int now_to_string contained
+syn keyword ashFunction npc_price numberology_prize numeric_modifier outfit outfit_pieces contained
+syn keyword ashFunction outfit_tattoo outfit_treats overdrink path_id_to_name path_name_to_id contained
 syn keyword ashFunction pick_pocket picked_pockets picked_scraps pocket_effects pocket_items contained
 syn keyword ashFunction pocket_joke pocket_meat pocket_monster pocket_poem pocket_scrap contained
 syn keyword ashFunction pocket_stats poem_pockets potential_pockets print print_html contained
 syn keyword ashFunction property_default_value property_exists property_has_default pulls_remaining put_closet contained
 syn keyword ashFunction put_display put_shop put_shop_using_storage put_stash pvp_attacks_left contained
-syn keyword ashFunction rain_cost random raw_damage_absorption refresh_shop refresh_stash contained
-syn keyword ashFunction refresh_status remove_item_condition remove_property rename_property replace contained
-syn keyword ashFunction replace_all replace_first replace_string reprice_shop reset contained
-syn keyword ashFunction restoration_pockets restore_hp restore_mp retrieve_item reverse_numberology contained
-syn keyword ashFunction rollover round run_choice run_combat run_turn contained
-syn keyword ashFunction runaway scrap_pockets sell sell_price sells_item contained
-syn keyword ashFunction session_logs set_auto_attack set_length set_location set_property contained
-syn keyword ashFunction shop_amount shop_limit shop_price skill_modifier slash_count contained
-syn keyword ashFunction soulsauce_cost spleen_limit split_string square_root start contained
-syn keyword ashFunction starts_with stash_amount stat_bonus_today stat_bonus_tomorrow stat_modifier contained
-syn keyword ashFunction stats_pockets steal stills_available stop_counter storage_amount contained
-syn keyword ashFunction string_modifier stun_skill substring svn_at_head svn_exists contained
-syn keyword ashFunction svn_info sweet_synthesis sweet_synthesis_pair sweet_synthesis_pairing sweet_synthesis_result contained
-syn keyword ashFunction take_closet take_display take_shop take_stash take_storage contained
-syn keyword ashFunction tavern throw_item throw_items thunder_cost time_to_string contained
-syn keyword ashFunction timestamp_to_date to_boolean to_bounty to_class to_coinmaster contained
-syn keyword ashFunction to_effect to_element to_familiar to_float to_int contained
-syn keyword ashFunction to_item to_json to_location to_lower_case to_monster contained
-syn keyword ashFunction to_phylum to_plural to_servant to_skill to_slot contained
-syn keyword ashFunction to_stat to_string to_thrall to_upper_case to_url contained
-syn keyword ashFunction to_vykea today_to_string total_free_rests total_turns_played tower_door contained
-syn keyword ashFunction traceprint truncate turns_per_cast turns_played twiddle contained
-syn keyword ashFunction unusual_construct_disc update_candy_prices url_decode url_encode use contained
-syn keyword ashFunction use_familiar use_servant use_skill user_confirm user_prompt contained
-syn keyword ashFunction visit visit_url voting_booth_initiatives wait waitq contained
-syn keyword ashFunction weapon_hands weapon_type weight_adjustment white_citadel_available who_clan contained
-syn keyword ashFunction will_usually_dodge will_usually_miss write writeln xpath contained
+syn keyword ashFunction rain_cost random raw_damage_absorption receive_fax refresh_shop contained
+syn keyword ashFunction refresh_stash refresh_status remove_item_condition remove_property rename_property contained
+syn keyword ashFunction replace replace_all replace_first replace_string reprice_shop contained
+syn keyword ashFunction reset restoration_pockets restore_hp restore_mp retrieve_item contained
+syn keyword ashFunction reverse_numberology rollover round run_choice run_combat contained
+syn keyword ashFunction run_turn runaway scrap_pockets sell sell_price contained
+syn keyword ashFunction sells_item send_fax session_logs set_auto_attack set_length contained
+syn keyword ashFunction set_location set_property shop_amount shop_limit shop_price contained
+syn keyword ashFunction skill_modifier slash_count soulsauce_cost spleen_limit split_string contained
+syn keyword ashFunction square_root start starts_with stash_amount stat_bonus_today contained
+syn keyword ashFunction stat_bonus_tomorrow stat_modifier stats_pockets steal stills_available contained
+syn keyword ashFunction stop_counter storage_amount string_modifier stun_skill substring contained
+syn keyword ashFunction svn_at_head svn_exists svn_info sweet_synthesis sweet_synthesis_pair contained
+syn keyword ashFunction sweet_synthesis_pairing sweet_synthesis_result take_closet take_display take_shop contained
+syn keyword ashFunction take_stash take_storage tavern throw_item throw_items contained
+syn keyword ashFunction thunder_cost time_to_string timestamp_to_date to_boolean to_bounty contained
+syn keyword ashFunction to_class to_coinmaster to_effect to_element to_familiar contained
+syn keyword ashFunction to_float to_int to_item to_json to_location contained
+syn keyword ashFunction to_lower_case to_monster to_phylum to_plural to_servant contained
+syn keyword ashFunction to_skill to_slot to_stat to_string to_thrall contained
+syn keyword ashFunction to_upper_case to_url to_vykea today_to_string total_free_rests contained
+syn keyword ashFunction total_turns_played tower_door traceprint truncate turns_per_cast contained
+syn keyword ashFunction turns_played twiddle unusual_construct_disc update_candy_prices url_decode contained
+syn keyword ashFunction url_encode use use_familiar use_servant use_skill contained
+syn keyword ashFunction user_confirm user_prompt visit visit_url voting_booth_initiatives contained
+syn keyword ashFunction wait waitq weapon_hands weapon_type weight_adjustment contained
+syn keyword ashFunction well_stocked white_citadel_available who_clan will_usually_dodge will_usually_miss contained
+syn keyword ashFunction write writeln xpath contained
 
 " Built-in functions are not reserved words, so only match them when
 " followed by a parenthesis.
@@ -153,6 +155,7 @@ syn region ashConstant start="$thralls\?\s*\[" end="\]" contains=ashConstantName
 syn keyword ashCommand notify call new abort script contains
 " Vim keyword, so has to be handled separately
 syn match ashCommand "\<sort\>"
+syn match ashCommand "\<remove\>"
 
 syn match ashImportCommand "^import\>" contained
 syn region ashImportScript start='<' end='>' keepend oneline
@@ -163,7 +166,7 @@ syn region ashImport start='import\s*"' end='"' contains=ashImportCommand, ashIm
 syn keyword ashConditional if else switch
 syn keyword ashRepeat for foreach repeat until while
 syn keyword ashLabel case default
-syn keyword ashException try catch
+syn keyword ashException try catch finally
 syn keyword ashKeyword return break from in to exit continue
 
 hi link ashConstantName Type
