@@ -28,7 +28,7 @@ syn match ashIntegerConstant "\<-\?\d\+\>"
 syn match ashFloatConstant "\<-\?\d\+\.\d\+\>"
 syn keyword ashBooleanConstant false true
 
-syn keyword ashDataType void boolean int float string buffer bounty class coinmaster effect element familiar item location monster phylum servant skill slot stat thrall record matcher
+syn keyword ashDataType void boolean int float string buffer matcher bounty class coinmaster effect element familiar item location monster path phylum servant skill slot stat thrall vykea record
 
 syn match ashConstantName "$\w*" contained
 syn match ashConstantValue "[^,]\+" contained nextgroup=ashConstantValue
@@ -38,7 +38,10 @@ syn region ashConstant start="$booleans\?\s*\[" end="\]" contains=ashConstantNam
 syn region ashConstant start="$ints\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$floats\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$strings\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
+
+syn region ashConstant start="$bount\(y\|ies\)\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$class\(es\)\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
+syn region ashConstant start="$coinmasters\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$effects\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$elements\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$familiars\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
@@ -46,10 +49,13 @@ syn region ashConstant start="$items\?\s*\[" end="\]" contains=ashConstantName, 
 syn region ashConstant start="$locations\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$monsters\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$paths\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
+syn region ashConstant start="$phylums\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
+syn region ashConstant start="$servants\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$skills\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$slots\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$stats\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 syn region ashConstant start="$thralls\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
+syn region ashConstant start="$vykeas\?\s*\[" end="\]" contains=ashConstantName, ashConstantValueList transparent keepend
 
 syn keyword ashCommand notify call new abort script contains
 " Vim keyword, so has to be handled separately
