@@ -23,6 +23,8 @@ syn keyword ashTodo FIXME TODO XXX contained
 
 syn region ashString start='"' skip='\\"' end='"' oneline
 syn region ashString start="'" skip="\\'" end="'" oneline
+syn region ashStringGrave start="`" skip="\\`" end="`" contains=ashStringGraveAux oneline
+syn region ashStringGraveAux start="{" end="}" oneline contained contains=ashComment, ashString, ashConstant, ashCommand, ashIntegerConstant, ashFloatConstant, ashBooleanConstant, ashFunction
 
 syn match ashIntegerConstant "\<-\?\d\+\>"
 syn match ashFloatConstant "\<-\?\d\+\.\d\+\>"
@@ -97,6 +99,7 @@ hi link ashImportScript String
 " This makes everything look like fruit salad, but these are not reserved
 " keywords but are also not types.  So, what else to color them as?
 hi link ashFunction Function
+hi link ashStringGrave String
 
 " This doesn't handle multi-line "$item[]" issues.
 syn sync ccomment
