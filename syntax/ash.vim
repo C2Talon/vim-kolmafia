@@ -30,7 +30,7 @@ syn match ashIntegerConstant "\<-\?\d\+\>"
 syn match ashFloatConstant "\<-\?\d\+\.\d\+\>"
 syn keyword ashBooleanConstant false true
 
-syn keyword ashDataType void boolean int float string buffer matcher bounty class coinmaster effect element familiar item location monster path phylum servant skill slot stat thrall vykea record
+syn keyword ashDataType void boolean int float string buffer matcher bounty class coinmaster effect element familiar item location modifier monster path phylum servant skill slot stat thrall vykea record
 
 syn match ashConstantName "$\w*" contained
 syn match ashConstantValue "[^,]\+" contained nextgroup=ashConstantValue
